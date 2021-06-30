@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos com DoM </title>
+    <style>
+        body {
+            background-color: rgb(138, 138, 231);
+            color : white;
+            font : normal 12pt Arial;  
+        }
+    </style>
+
+</head>
+
+<body>
+<!-- estes sao exmplos de como a gente usa os elementos no javascript -->
+    <h1>Iniciando meus estudos com <strong>DOM</strong> </h1>
+    <h2> TENTANDO COM A EXTENSÃO DO CHROME</h2>
+    <p> AQUI VAI O RESOLTUkkDD0</p>
+    <p> estes sao testes em javascript </p>
+    <div id = 'msg'>  aqui vai o resultado </div>
+    <div id = '1msg'>outra mensagem de exemplo </div>
+
+<!-- exemplos de acessar elemntos com javascrispt -->
+
+<script>
+    var p1 = window.document.getElementsByTagName('p')[0]
+         window.document.write(p1.innerText)
+         window.document.write(p1.innerHTML)
+// acesasndo os elementos com TAG name //
+
+         p1.style.color ='blue'
+         var d = window.document.getElementById('msg').innerText = 'ola' //misericordia mudei tudo !//
+            d.style.background = 'green' 
+// acesando os elementos com ID //
+            // outra forma de acessar os elementos //        
+ var e = window.document.getElementsByName('1msg')
+
+ var d = window.document.querySelector('div#msg')
+     d.style.color = 'black'
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
